@@ -6,4 +6,11 @@
 
 #0-1随机小数：random.random(),括号中不传参
 import random
-impor
+import numpy as np
+a=random.randint(1,1000)
+b=np.random.randn(5)
+c=random.random()
+print("整数是{}".format(a))
+
+print("小数是{}".format(b))
+print("0-1的数是{}".format(c))
